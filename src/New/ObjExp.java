@@ -2,13 +2,16 @@ package New;
 
 public class ObjExp 
 {
-
-	public static void main(String[] args) 
+	int a = 10;
+	
+      public static void main(String[] args) 
 	{
-		for(;;)
-		{
-			System.out.println("Hi");
-		}
+    	  ObjExp d = new ObjExp();
+    	  ObjExp e = d;
+    	  System.out.println(d);
+    	  System.out.println(e);
+		System.out.println(d.a);
+		System.out.println(e.a);
 		
 	}
 
